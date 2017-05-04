@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+/* Keep it simple - improvement would be to not display characters */
+
+.symbol {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+}
+
+.hadane-slovo {
+    list-style: none;
+}
+
+.vystup {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.slovoUhodnuto {
+    background-color: green;
+    transition: all 1s ease;
+}
+
+.chyba {
+    color: red;
+    opacity: 1;
+}
+
+.varovani {
+    color: orange;
+    opacity: 1;
+}
+
+.win {
+    color: green;
+    opacity: 1;
+}
